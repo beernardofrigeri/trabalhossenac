@@ -1,38 +1,60 @@
 * body {
     margin: 0px;
     padding: 0px;
+    font-family: "Story Script", sans-serif;
 }
 #topoContainer {
     width: 980px;
     height: 100px;
     margin: auto;
-    background-color: mediumseagreen;
 }
 #logo {
     width: 200px;
     height: 100px;
     float: left;
-    background-color: black;
+    background-color: lightgreen;
+}
+#logo a {
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+    line-height: 100px;
+    margin-left: 20px;
 }
 #menu {
     width: 780px;
     height: 100px;
     float: right;
-    background: blueviolet;
+    background: mediumaquamarine;
+    text-align: center;
+    word-spacing: 10px;
+}
+#menu a {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    line-height: 100px;
+    margin: 0px 15px 0px 15px;
 }
 #banner {
     width: 700px;
     height: 400px;
-    background-color: lightcoral;
+    background-color: mediumspringgreen;
     margin: auto;
     margin-top: 50px;
+}
+#banner a{
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+    line-height: 400px;
+    margin-left: 20px;
 }
 #conteudoSite {
     width: 980px;
     height: 500px;
     margin: auto;
     margin-top: 50px;
-    background-color: lightgray;
 }
 #esquerda {
     width: 450px;
@@ -40,15 +62,37 @@
     float: left;
     background-color: lightgreen;
 }
+#esquerda a {
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+    line-height: 500px;
+    margin-left: 20px;
+}
 #direita {
     width: 450px;
     height: 500px;
     float: right;
     background-color: lightblue;
 }
+#direita a {
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+    line-height: 500px;
+    margin-left: 20px;
+}
 #rodape {
     width: 980px;
     height: 50px;
     margin: auto;
-    background-color: orange;
+    background-color: mediumturquoise;
+    margin-top: 50px;
+}
+#rodape a {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 20px;
 }
