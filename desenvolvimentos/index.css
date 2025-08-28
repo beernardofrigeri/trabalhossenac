@@ -13,6 +13,7 @@
     height: 100px;
     float: left;
     background-color: lightgreen;
+    border-radius: 15px;
 }
 #logo a {
     text-decoration: none;
@@ -28,6 +29,7 @@
     background: mediumaquamarine;
     text-align: center;
     word-spacing: 10px;
+    border-radius: 15px;
 }
 #menu a {
     text-decoration: none;
@@ -41,7 +43,8 @@
     height: 400px;
     background-color: mediumspringgreen;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 10px;
+    border-radius: 15px;
 }
 #banner a{
     text-decoration: none;
@@ -54,13 +57,14 @@
     width: 980px;
     height: 500px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 #esquerda {
-    width: 450px;
+    width: 475px;
     height: 500px;
     float: left;
     background-color: lightgreen;
+    border-radius: 15px;
 }
 #esquerda a {
     text-decoration: none;
@@ -70,10 +74,11 @@
     margin-left: 20px;
 }
 #direita {
-    width: 450px;
+    width: 475px;
     height: 500px;
     float: right;
     background-color: lightblue;
+    border-radius: 15px;
 }
 #direita a {
     text-decoration: none;
@@ -87,7 +92,8 @@
     height: 50px;
     margin: auto;
     background-color: mediumturquoise;
-    margin-top: 50px;
+    margin-top: 15px;
+    border-radius: 15px;
 }
 #rodape a {
     text-decoration: none;
