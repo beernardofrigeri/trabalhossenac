@@ -60,7 +60,8 @@
 }
 #banner img {
     width: 100%;
-    height: 300px;
+    height: auto;
+    display: block;
     border-radius: 15px;
 }
 #conteudoSite {
@@ -71,10 +72,11 @@
 }
 #esquerda {
     width: 475px;
-    height: 500px;
+    height: 550px;
     float: left;
     background-color: lightgreen;
     border-radius: 15px;
+    margin-top: 100px;
 }
 #esquerda a {
     text-decoration: none;
@@ -85,10 +87,11 @@
 }
 #direita {
     width: 475px;
-    height: 500px;
+    height: 550px;
     float: right;
     background-color: lightblue;
     border-radius: 15px;
+    margin-top: 100px;
 }
 #direita a {
     text-decoration: none;
@@ -102,7 +105,7 @@
     height: 50px;
     margin: auto;
     background-color: mediumturquoise;
-    margin-top: 70px;
+    margin-top: 125px;
     border-radius: 15px;
     clear: both;
 }
@@ -111,7 +114,7 @@
     height: 50px;
     margin: auto;
     background-color: mediumturquoise;
-    margin-top: 100px;
+    margin-top: 300px;
     border-radius: 15px;
     clear: both;
 }
@@ -141,10 +144,16 @@ input, textarea {
     padding: 10px 10px 10px 10px;
     font-family: "Story Script", sans-serif;
 }
-h1.contato {
-    text-align: center;
+h1 {
     padding-top: 20px;
     font-size: 40px;
+    text-align: center;
+}
+h1.contato {
+    font-style: italic;
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
 }
 h3 {
     text-align: center;
