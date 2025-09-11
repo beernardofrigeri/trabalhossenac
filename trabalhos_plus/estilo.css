@@ -1,0 +1,40 @@
+* body {
+    margin: 0px;
+    padding: 0px;
+}
+#topoPorcento {
+    width: 100%;
+    height: 100px;
+    /* background-color: black; */
+}
+#topo {
+    width: 980px;
+    height: 100px;
+    /* background-color: purple; */
+    margin: auto;
+}
+#logo {
+    width: 200px;
+    height: 100px;
+    /* background-color: blue; */
+    float: left;
+}
+#menu {
+    width: 680px;
+    height: 100px;
+    float: right;
+    /*background-color: red; */
+}
+#banner_img {
+    width: 980px;
+    height: 300px;
+    /* background-color: gray; */
+    border-radius: 15px;
+    margin: auto;
+}
+#container {
+    width: 980px;
+    height: 500px;
+    /* background-color: yellow; */
+    margin: auto;
+}
