@@ -1,0 +1,72 @@
+* body{
+    margin:0px;
+    padding:0px;
+    font-family: "Story Script", sans-serif;
+}
+#topoContainer{
+    width:980px;
+    height:100px;
+    margin:auto;
+    clear: both;
+    margin: auto;
+}
+#Logo{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    background-color: lightseagreen;
+    float: left;
+    clear: both;
+    margin: auto;
+    border-bottom: 15px solid rgb(255, 255, 255);
+
+}
+#Banner{
+    width:980px;
+    height:300px;
+    margin:auto;
+    background-color: rgb(49, 1, 4);
+    clear: both;
+    margin: auto;
+    border-bottom: 15px solid rgb(255, 255, 255);
+
+}
+#container{
+    width:1000px;
+    height: 300px;
+    background-color: rgb(99, 0, 99);
+    margin: 20px auto 0 auto;
+    overflow: auto;
+}
+#direita{
+    width: 320px;
+    height: 300px;
+    background-color: #ff0000;
+    float: right;
+    margin-left: 10px;
+}
+#meio {
+    width: 320px;
+    height: 300px;
+    display: inline-block;
+    background-color: #ff0000;
+    margin: 0 10px; /* centraliza horizontalmente se display: block */
+    vertical-align: top;
+}
+#esquerda {
+    width: 320px;
+    height: 300px;
+    background-color: #ff0000; /* ponto e vírgula adicionado */
+    float: left;
+    margin-right: 10px;
+}
+
+#Rodape{
+    width:980px;
+    height:100px;
+    margin:auto;
+    background-color: lightblue;
+    clear: both;
+    border-top: 15px solid rgb(255, 255, 255);
+
+}
