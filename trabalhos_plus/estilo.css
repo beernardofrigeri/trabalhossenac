@@ -1,6 +1,7 @@
 * body {
     margin: 0px;
     padding: 0px;
+    font-family: "Story Script", sans-serif;
 }
 #topoPorcento {
     width: 100%;
@@ -47,4 +48,34 @@
     height: 500px;
     /* background-color: yellow; */
     margin: auto;
+}
+#galeria {
+    width: 966px;
+    height: 432px;
+    background-color: black;
+    margin: auto;
+    margin-top: 275px;
+}
+#containerContato {
+    width: 980px;
+    height: 500px;
+    /* background-color: lightblue; */
+    margin: auto;
+}
+#esquerdaContato {
+    width: 450px;
+    height: 500px;
+    /* background-color: lightgreen; */
+    float: left;
+    margin: auto;
+}
+#direitaContato {
+    width: 450px;
+    height: 500px;
+    /* background-color: lightcoral; */
+    float: right;
+    margin: auto;
+}
+iframe {
+    border-radius: 15px;
 }
