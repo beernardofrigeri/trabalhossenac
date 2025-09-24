@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CentralDosProdutos</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>Cadastro de Produtos</h1>
+    <form>
+        Nome do Produto: <input type="text" id="nomeProduto"><br>
+        <hr>
+        Categoria: <select id="categoria">
+            <option value="eletronicos">Informática/Eletrônica</option>
+            <option value="roupas">Hardwares</option>
+            <option value="alimentos">Softwares</option>
+            <option value="moveis">Periféricos</option>
+        </select><br>
+        <hr>
+        Em estoque? <br><input type="checkbox" id="emEstoque">Sim<br>
+        <input type="checkbox" id="emEstoque">Não<br>
+        <hr>
+        <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar">
+        <input type="reset" value="Limpar valores">
+</body>
+</html>
