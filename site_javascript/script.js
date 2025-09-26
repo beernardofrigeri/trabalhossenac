@@ -4,5 +4,5 @@ function imprimirVariaveis(){
 var nome = document.getElementById("nome").value;
 var sobrenome = document.getElementById("sobrenome").value;
 var endereco = document.getElementById("endereco").value;
-alert(nome + " " + sobrenome + " " + endereco);
+alert("Nome: " + nome + "\nSobrenome: " + sobrenome + "\nEndereço: " + endereco);
 }

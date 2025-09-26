@@ -30,7 +30,7 @@
             } else {
                 jaAssistidoNao = " ";
             }
-            alert(nomeFilme + " " + categoria + " " + jaAssistido + " " + jaAssistidoNao);
+            alert("Nome do Filme: " + nomeFilme + "\nCategoria: " + categoria + "\n" + jaAssistido + "\n" + jaAssistidoNao);
         }
     </script>
     <h1>Cadastro de Filmes</h1>
@@ -38,21 +38,21 @@
         Nome do Filme: <input type="text" id="nomeFilme"><br>
         <hr>
         Categoria: <select id="categoria">
-            <option value="Acao">Ação</option>
-            <option value="Comedia">Comédia</option>
+            <option value="Ação">Ação</option>
+            <option value="Comédia">Comédia</option>
             <option value="Drama">Drama</option>
             <option value="Terror">Terror</option>
-            <option value="Ficcao">Ficção Científica</option>
+            <option value="Ficção">Ficção Científica</option>
             <option value="Romance">Romance</option>
-            <option value="Documentario">Documentário</option>
-            <option value="Animacao">Animação</option>
+            <option value="Documentário">Documentário</option>
+            <option value="Animação">Animação</option>
             <option value="Aventura">Aventura</option>
             <option value="Fantasia">Fantasia</option>
             <option value="Suspense">Suspense</option>
         </select><br>
         <hr>
-        Já assistido? <br><input type="checkbox" id="jaAssistido">Sim<br>
-        <input type="checkbox" id="jaAssistidoNao">Não<br>
+        Já assistido? <br><input type="radio" id="jaAssistido">Sim<br>
+        <input type="radio" id="jaAssistidoNao">Não<br>
         <hr>
         <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar">
         <input type="reset" value="Limpar valores">

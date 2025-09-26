@@ -36,7 +36,7 @@
             } else {
                 turnoEscolarNoite = "";
             }
-            alert(nomeAluno + " " + serie + " " + turnoEscolarManha + " " + turnoEscolarTarde + " " + turnoEscolarNoite);
+            alert("Aluno: " + nomeAluno + "\nSérie: " + serie + "\nTurno: " + turnoEscolarManha + " " + turnoEscolarTarde + " " + turnoEscolarNoite);
         }
     </script>
     <h1>Cadastro de Alunos</h1>
@@ -55,9 +55,9 @@
         </select><br>
         <hr>
         Turno escolar: <br>
-        <input type="checkbox" id="turnoEscolarManha">Manhã<br>
-        <input type="checkbox" id="turnoEscolarTarde">Tarde<br>
-        <input type="checkbox" id="turnoEscolarNoite">Noite<br>
+        <input type="radio" id="turnoEscolarManha" name="turnoEscolar">Manhã<br>
+        <input type="radio" id="turnoEscolarTarde" name="turnoEscolar">Tarde<br>
+        <input type="radio" id="turnoEscolarNoite" name="turnoEscolar">Noite<br>
         <hr>
         <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar">
         <input type="reset" value="Limpar valores">

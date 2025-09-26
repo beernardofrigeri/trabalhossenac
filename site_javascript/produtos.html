@@ -24,7 +24,7 @@
             } else {
                 emEstoqueNao = " ";
             }
-            alert(nomeProduto + " " + categoria + " " + emEstoque + " " + emEstoqueNao);
+            alert("Nome do Produto: " + nomeProduto + "\nCategoria: " + categoria + "\n" + emEstoque + "\n" + emEstoqueNao);
         }
     </script>
     <div class="topnav">
@@ -44,8 +44,8 @@
             <option value="moveis">Periféricos</option>
         </select><br>
         <hr>
-        Em estoque? <br><input type="checkbox" id="emEstoque">Sim<br>
-        <input type="checkbox" id="emEstoqueNao">Não<br>
+        Em estoque? <br><input type="radio" id="emEstoque" name="estoque">Sim<br>
+        <input type="radio" id="emEstoqueNao" name="estoque">Não<br>
         <hr>
         <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar">
         <input type="reset" value="Limpar valores">
