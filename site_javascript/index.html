@@ -14,16 +14,16 @@
         <a href="filme.html">Filmes</a>
     </div>
     <script src="script.js"></script>
-    <form>
-        <h1>Cadastro de Usuário</h1>
-        Nome: <input type="text" id="nome"><br>
-        <hr>
-        Sobrenome: <input type="text" id="sobrenome"><br>
-        <hr>
-        Endereço: <input type="text" id="endereco"><br>
-        <hr>
-        <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar">
-        <input type="reset" value="Limpar valores">
+    <form class="login" align="center">
+        <h1>Entre na sua conta!</h1>
+        <label>Usuário:</label>
+        <input type="text" id="Usuário">
+        <label>Senha:</label>
+        <input type="password" id="Senha">
+        <label>Confirmação da Senha:</label> 
+        <input type="password" id="Confirmação da Senha">      
+        <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar"></input>
     </form>
+    <div id="resultado"></div>
 </body>
 </html>
