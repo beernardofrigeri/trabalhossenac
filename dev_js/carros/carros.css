@@ -1,8 +1,14 @@
 * body {
     background-color: lightblue;
 }
-.alinhamento {
+#alinhamento {
     align-items: center;
+    display: flex;
+}
+#carro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1 {
     color: red;
@@ -14,6 +20,9 @@ form {
     background-color: gray;
     padding: 20px;
     align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    display: block;
 }
 button {
     background-color: black;
