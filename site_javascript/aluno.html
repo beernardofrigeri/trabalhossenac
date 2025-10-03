@@ -13,36 +13,10 @@
         <a href="produtos.html">Produtos</a>
         <a href="filme.html">Filmes</a>
     </div>
-    <script>
-        function imprimirVariaveis() {
-            var nomeAluno = document.getElementById("nomeAluno").value;
-            var serie = document.getElementById("serie").value;
-            var turnoEscolarManha = document.getElementById("turnoEscolarManha").checked;
-            var turnoEscolarTarde = document.getElementById("turnoEscolarTarde").checked;
-            var turnoEscolarNoite = document.getElementById("turnoEscolarNoite").checked;
-
-            if (turnoEscolarManha) {
-                turnoEscolarManha = "Manhã";
-            } else {
-                turnoEscolarManha = "";
-            }
-            if (turnoEscolarTarde) {
-                turnoEscolarTarde = "Tarde";
-            } else {
-                turnoEscolarTarde = "";
-            }
-            if (turnoEscolarNoite) {
-                turnoEscolarNoite = "Noite";
-            } else {
-                turnoEscolarNoite = "";
-            }
-            alert("Aluno: " + nomeAluno + "\nSérie: " + serie + "\nTurno: " + turnoEscolarManha + " " + turnoEscolarTarde + " " + turnoEscolarNoite);
-        }
-    </script>
-    <h1>Cadastro de Alunos</h1>
-    <form>
+    <script src="script.js"></script>
+    <form class="login_alunos" align="center">
+        <h1>Cadastro de Alunos</h1>
         Aluno: <input type="text" id="nomeAluno"><br>
-        <hr>
         Série: <select id="serie">
             <option value="5° ano">5° ano</option>
             <option value="6° ano">6° ano</option>
@@ -53,13 +27,15 @@
             <option value="2° ano Ensino Médio">2° ano Ensino Médio</option>
             <option value="3° ano Ensino Médio">3° ano Ensino Médio</option>
         </select><br>
-        <hr>
         Turno escolar: <br>
-        <input type="radio" id="turnoEscolarManha" name="turnoEscolar">Manhã<br>
-        <input type="radio" id="turnoEscolarTarde" name="turnoEscolar">Tarde<br>
-        <input type="radio" id="turnoEscolarNoite" name="turnoEscolar">Noite<br>
-        <hr>
+        <p class="aluno">Manhã:</p>
+        <input type="radio" id="turnoEscolarManha" name="turnoEscolar"><br>
+        <p class="aluno">Tarde:</p>
+        <input type="radio" id="turnoEscolarTarde" name="turnoEscolar"><br>
+        <p class="aluno">Noite:</p>
+        <input type="radio" id="turnoEscolarNoite" name="turnoEscolar"><br>
         <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar">
         <input type="reset" value="Limpar valores">
+    </form>
 </body>
 </html>

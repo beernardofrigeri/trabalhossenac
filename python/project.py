@@ -2,7 +2,7 @@ import tkinter as tk
 
 janela = tk.Tk()
 label = tk.Label(janela, 
-                 text="Você ",
+                 text="",
                  font=("sans-serif", 30),
                  fg="blue",
                  bg="yellow",
