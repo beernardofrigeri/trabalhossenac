@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PortalDoAluno</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="aluno.html">Alunos</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="filme.html">Filmes</a>
+    </div>
+    <script src="js/script.js"></script>
+    <form class="login_alunos" align="center">
+        <h1>Cadastro de Alunos</h1>
+        Aluno: <input type="text" id="nomeAluno"><br>
+        Série: <select id="serie">
+            <option value="5° ano">5° ano</option>
+            <option value="6° ano">6° ano</option>
+            <option value="7° ano">7° ano</option>
+            <option value="8° ano">8° ano</option>
+            <option value="9° ano">9° ano</option>
+            <option value="1° ano Ensino Médio">1° ano Ensino Médio</option>
+            <option value="2° ano Ensino Médio">2° ano Ensino Médio</option>
+            <option value="3° ano Ensino Médio">3° ano Ensino Médio</option>
+        </select><br>
+        Turno escolar: <br>
+        <p class="aluno">Manhã:</p>
+        <input type="radio" id="turnoEscolarManha" name="turnoEscolar"><br>
+        <p class="aluno">Tarde:</p>
+        <input type="radio" id="turnoEscolarTarde" name="turnoEscolar"><br>
+        <p class="aluno">Noite:</p>
+        <input type="radio" id="turnoEscolarNoite" name="turnoEscolar"><br>
+        <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar">
+        <input type="reset" value="Limpar valores">
+    </form>
+</body>
+</html>

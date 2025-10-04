@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PortalDoUsuario</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="aluno.html">Alunos</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="filme.html">Filmes</a>
+    </div>
+    <script src="js/script.js"></script>
+    <form class="login" align="center">
+        <h1>Entre na sua conta!</h1>
+        <label>Usuário:</label>
+        <input type="text" id="Usuário">
+        <label>Senha:</label>
+        <input type="password" id="Senha">
+        <label>Confirmação da Senha:</label> 
+        <input type="password" id="Confirmação da Senha">      
+        <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar"></input>
+    </form>
+    <div id="resultado"></div>
+</body>
+</html>
