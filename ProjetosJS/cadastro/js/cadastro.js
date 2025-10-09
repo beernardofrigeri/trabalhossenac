@@ -1,7 +1,6 @@
 function imprimirValores() {
     var nome = document.getElementById("nome").value;
     var nascimento = document.getElementById("nascimento").value;
-    var sexo = document.getElementById("sexo").value;
     var estado_civil = document.getElementById("estado_civil").value;
     var escolaridade = document.getElementById("escolaridade").value;
     

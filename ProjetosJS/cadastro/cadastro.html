@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
-    <script src="js/cadastro.js"></script>
 </head>
 <body>
     <table align="center" width="980" border="1">
@@ -21,8 +20,12 @@
         <td>Estado Civil: <input type="text" id="civil"></input></td>
         <td>Escolaridade: <input type="text" id="escolaridade"></input></td>
         <tr>
-            <td width="100"><input type="submit" name="enviar" value="Cadastrar" onclick="imprimirValores()" style="background-color: steelblue;"></td>
-            <td width="100"><input type="submit" name="apagar" value="Cancelar" style="background-color: steelblue;"></td>
+            <td width="100"><input type="submit" name="enviar" value="Cadastrar" onclick="imprimirValores()" style="background-color: green;"></td>
+            <td width="100"><input type="submit" name="apagar" value="Cancelar" onclick="apagarValores()" style="background-color: red;"></td>
         </table>
+
+
+
+        <script src="js/cadastro.js"></script>
 </body>
 </html>
