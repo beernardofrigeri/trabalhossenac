@@ -1,7 +1,7 @@
 var imagens = [
-    "imagens/aulaf75.jpg",
-    "imagens/g305.jpg",
-    "imagens/g733.jpg",
+    "imagens/aulaf75_PhotoGrid.png",
+    "imagens/g305_PhotoGrid.png",
+    "imagens/g733_PhotoGrid.png",
 ];
 
 var indice = 0;
