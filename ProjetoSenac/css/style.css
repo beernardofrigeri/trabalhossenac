@@ -135,3 +135,18 @@ input[type="button"]:hover {
     height: 300px;
     float: left;
 }
+#contato {
+    width: 980px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+#contato-esquerda, #contato-direita {
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
