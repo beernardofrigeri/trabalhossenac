@@ -114,3 +114,24 @@ input[type="button"]:hover {
     bottom: 0;
     margin-top: 20px;
 }
+#conteudoEnsinoMedio {
+    width: 980px;
+    height: 700px;
+    margin: auto;
+    text-align: justify;
+    line-height: 20px;
+}
+#conteudoEnsinoMedio img {
+    float: left;
+    padding: 10px 10px 20px 15px;
+}
+#direita {
+    width: 480px;
+    height: 300px;
+    float: right;
+}
+#esquerda {
+    width: 480px;
+    height: 300px;
+    float: left;
+}
