@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CasaDosFilmes</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="aluno.html">Alunos</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="filme.html">Filmes</a>
+    </div>
+    <script>
+        function imprimirVariaveis() {
+            var nomeFilme = document.getElementById("nomeFilme").value;
+            var categoria = document.getElementById("categoria").value;
+            var jaAssistido = document.getElementById("jaAssistido").checked;
+            var jaAssistidoNao = document.getElementById("jaAssistidoNao").checked;
+
+            if (jaAssistido) {
+                jaAssistido = "Assistido";
+            } else {
+                jaAssistido = " ";
+            }
+            if (jaAssistidoNao) {
+                jaAssistidoNao = "Não assistido";
+            } else {
+                jaAssistidoNao = " ";
+            }
+            alert("Nome do Filme: " + nomeFilme + "\nCategoria: " + categoria + "\n" + jaAssistido + "\n" + jaAssistidoNao);
+        }
+    </script>
+    <h1>Cadastro de Filmes</h1>
+    <form>
+        Nome do Filme: <input type="text" id="nomeFilme"><br>
+        <hr>
+        Categoria: <select id="categoria">
+            <option value="Ação">Ação</option>
+            <option value="Comédia">Comédia</option>
+            <option value="Drama">Drama</option>
+            <option value="Terror">Terror</option>
+            <option value="Ficção">Ficção Científica</option>
+            <option value="Romance">Romance</option>
+            <option value="Documentário">Documentário</option>
+            <option value="Animação">Animação</option>
+            <option value="Aventura">Aventura</option>
+            <option value="Fantasia">Fantasia</option>
+            <option value="Suspense">Suspense</option>
+        </select><br>
+        <hr>
+        Já assistido? <br><input type="radio" id="jaAssistido">Sim<br>
+        <input type="radio" id="jaAssistidoNao">Não<br>
+        <hr>
+        <input type="submit" onclick="imprimirVariaveis()" value="Cadastrar">
+        <input type="reset" value="Limpar valores">
+</body>
+</html>

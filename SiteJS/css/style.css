@@ -1,0 +1,116 @@
+* body {
+    background-color: lightgrey;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+}
+p {
+    font-size: 15px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aluno {
+    font-size: 15px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+form {
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+    justify-content: center;
+}
+label {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+input {
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 20px;
+    color: white;
+    margin-bottom: 20px;    
+}
+button {
+    background: rgba(45, 126, 231);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white;
+}
+select {
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 20px;
+    color: black;
+    margin-bottom: 20px;    
+}
+.login {
+    background-image: url(../imagens/login.jpg);
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75); 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    align-items: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 8px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: black;
+    color: burlywood;
+    border-radius: 10px;
+}
+.login_alunos {
+    border: 1px solid black;
+    width: 400px;
+    height: 850px;
+    background: url(../imagens/login.jpg) no-repeat center;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75); 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    align-items: left;
+}
